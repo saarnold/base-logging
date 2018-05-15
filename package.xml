@@ -1,0 +1,21 @@
+<package format="2">
+  <name>rock-logging</name>
+  <version>0.0.0</version>
+  <description>Rock base library containing logging utilities</description>
+
+  <maintainer email="Steffen.Planthaber@dfki.de">Steffen Planthaber</maintainer>
+  <author     email="Steffen.Planthaber@dfki.de">Steffen Planthaber</author>
+
+  <license>LGPL v2 or later</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <build_depend>rock-cmake</build_depend>
+
+  <doc_depend>doxygen</doc_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
+
